@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\xiao.guo\xiao\xiao\utils\Date.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\xiao.guo\xiao\build\exports\xiao\exports.h">
+      <Filter>Public API</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\xiao.guo\xiao\xiao\utils\Date.h">
+      <Filter>Public API</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\xiao.guo\xiao\xiao\utils\Funcs.h">
+      <Filter>Public API</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\xiao.guo\xiao\xiao\utils\NonCopyable.h">
+      <Filter>Public API</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\xiao.guo\xiao\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Public API">
+      <UniqueIdentifier>{939D9B0D-5A90-335D-A53E-959BCFED6FC1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{F46CC255-B20E-3F8E-9AD0-D76186AAFD29}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,355 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.19041 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      适用于 .NET Framework MSBuild 版本 17.7.2+d6990bcfa
+      生成启动时间为 2024/3/23 11:29:37。
+      
+      节点 1 上的项目“E:\\xiao.guo\\xiao\\build\\CMakeFiles\\3.28.0-rc5\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)。
+      PrepareForBuild:
+        正在创建目录“Debug\\”。
+        正在创建目录“Debug\\CompilerIdC.tlog\\”。
+      InitializeBuildStatus:
+        正在创建“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        正在对“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”执行 Touch 任务。
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> E:\\xiao.guo\\xiao\\build\\CMakeFiles\\3.28.0-rc5\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        正在删除文件“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”。
+        正在对“Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate”执行 Touch 任务。
+      已完成生成项目“E:\\xiao.guo\\xiao\\build\\CMakeFiles\\3.28.0-rc5\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)的操作。
+      
+      已成功生成。
+          0 个警告
+          0 个错误
+      
+      已用时间 00:00:01.28
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        E:/xiao.guo/xiao/build/CMakeFiles/3.28.0-rc5/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      适用于 .NET Framework MSBuild 版本 17.7.2+d6990bcfa
+      生成启动时间为 2024/3/23 11:29:38。
+      
+      节点 1 上的项目“E:\\xiao.guo\\xiao\\build\\CMakeFiles\\3.28.0-rc5\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)。
+      PrepareForBuild:
+        正在创建目录“Debug\\”。
+        正在创建目录“Debug\\CompilerIdCXX.tlog\\”。
+      InitializeBuildStatus:
+        正在创建“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        正在对“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”执行 Touch 任务。
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> E:\\xiao.guo\\xiao\\build\\CMakeFiles\\3.28.0-rc5\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        正在删除文件“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”。
+        正在对“Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate”执行 Touch 任务。
+      已完成生成项目“E:\\xiao.guo\\xiao\\build\\CMakeFiles\\3.28.0-rc5\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)的操作。
+      
+      已成功生成。
+          0 个警告
+          0 个错误
+      
+      已用时间 00:00:00.98
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        E:/xiao.guo/xiao/build/CMakeFiles/3.28.0-rc5/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "E:/xiao.guo/xiao/build/CMakeFiles/CMakeScratch/TryCompile-smuvh8"
+      binary: "E:/xiao.guo/xiao/build/CMakeFiles/CMakeScratch/TryCompile-smuvh8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/xiao.guo/xiao/build/CMakeFiles/CMakeScratch/TryCompile-smuvh8'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_bcb02.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        适用于 .NET Framework MSBuild 版本 17.7.2+d6990bcfa
+        生成启动时间为 2024/3/23 11:29:40。
+        
+        节点 1 上的项目“E:\\xiao.guo\\xiao\\build\\CMakeFiles\\CMakeScratch\\TryCompile-smuvh8\\cmTC_bcb02.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_bcb02.dir\\Debug\\”。
+          正在创建目录“E:\\xiao.guo\\xiao\\build\\CMakeFiles\\CMakeScratch\\TryCompile-smuvh8\\Debug\\”。
+          正在创建目录“cmTC_bcb02.dir\\Debug\\cmTC_bcb02.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_bcb02.dir\\Debug\\cmTC_bcb02.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+          正在对“cmTC_bcb02.dir\\Debug\\cmTC_bcb02.tlog\\unsuccessfulbuild”执行 Touch 任务。
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bcb02.dir\\Debug\\\\" /Fd"cmTC_bcb02.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.37.32822 版
+          CMakeCCompilerABI.c
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bcb02.dir\\Debug\\\\" /Fd"cmTC_bcb02.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\xiao.guo\\xiao\\build\\CMakeFiles\\CMakeScratch\\TryCompile-smuvh8\\Debug\\cmTC_bcb02.exe" /INCREMENTAL /ILK:"cmTC_bcb02.dir\\Debug\\cmTC_bcb02.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/xiao.guo/xiao/build/CMakeFiles/CMakeScratch/TryCompile-smuvh8/Debug/cmTC_bcb02.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/xiao.guo/xiao/build/CMakeFiles/CMakeScratch/TryCompile-smuvh8/Debug/cmTC_bcb02.lib" /MACHINE:X64  /machine:x64 cmTC_bcb02.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_bcb02.vcxproj -> E:\\xiao.guo\\xiao\\build\\CMakeFiles\\CMakeScratch\\TryCompile-smuvh8\\Debug\\cmTC_bcb02.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_bcb02.dir\\Debug\\cmTC_bcb02.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_bcb02.dir\\Debug\\cmTC_bcb02.tlog\\cmTC_bcb02.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“E:\\xiao.guo\\xiao\\build\\CMakeFiles\\CMakeScratch\\TryCompile-smuvh8\\cmTC_bcb02.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.87
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "E:/xiao.guo/xiao/build/CMakeFiles/CMakeScratch/TryCompile-1l8ae5"
+      binary: "E:/xiao.guo/xiao/build/CMakeFiles/CMakeScratch/TryCompile-1l8ae5"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/xiao.guo/xiao/build/CMakeFiles/CMakeScratch/TryCompile-1l8ae5'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_22bfc.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        适用于 .NET Framework MSBuild 版本 17.7.2+d6990bcfa
+        生成启动时间为 2024/3/23 11:29:41。
+        
+        节点 1 上的项目“E:\\xiao.guo\\xiao\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1l8ae5\\cmTC_22bfc.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_22bfc.dir\\Debug\\”。
+          正在创建目录“E:\\xiao.guo\\xiao\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1l8ae5\\Debug\\”。
+          正在创建目录“cmTC_22bfc.dir\\Debug\\cmTC_22bfc.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_22bfc.dir\\Debug\\cmTC_22bfc.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+          正在对“cmTC_22bfc.dir\\Debug\\cmTC_22bfc.tlog\\unsuccessfulbuild”执行 Touch 任务。
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_22bfc.dir\\Debug\\\\" /Fd"cmTC_22bfc.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.37.32822 版
+          CMakeCXXCompilerABI.cpp
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_22bfc.dir\\Debug\\\\" /Fd"cmTC_22bfc.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\xiao.guo\\xiao\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1l8ae5\\Debug\\cmTC_22bfc.exe" /INCREMENTAL /ILK:"cmTC_22bfc.dir\\Debug\\cmTC_22bfc.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/xiao.guo/xiao/build/CMakeFiles/CMakeScratch/TryCompile-1l8ae5/Debug/cmTC_22bfc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/xiao.guo/xiao/build/CMakeFiles/CMakeScratch/TryCompile-1l8ae5/Debug/cmTC_22bfc.lib" /MACHINE:X64  /machine:x64 cmTC_22bfc.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_22bfc.vcxproj -> E:\\xiao.guo\\xiao\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1l8ae5\\Debug\\cmTC_22bfc.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_22bfc.dir\\Debug\\cmTC_22bfc.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_22bfc.dir\\Debug\\cmTC_22bfc.tlog\\cmTC_22bfc.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“E:\\xiao.guo\\xiao\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1l8ae5\\cmTC_22bfc.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.75
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckSourceCompiles.cmake:77 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/GenerateExportHeader.cmake:206 (check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/GenerateExportHeader.cmake:263 (_check_cxx_compiler_attribute)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/GenerateExportHeader.cmake:420 (_test_compiler_has_deprecated)"
+      - "CMakeLists.txt:66 (generate_export_header)"
+    checks:
+      - "Performing Test COMPILER_HAS_DEPRECATED_ATTR"
+    directories:
+      source: "E:/xiao.guo/xiao/build/CMakeFiles/CMakeScratch/TryCompile-a3uyza"
+      binary: "E:/xiao.guo/xiao/build/CMakeFiles/CMakeScratch/TryCompile-a3uyza"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/xiao.guo/xiao/cmake_modules/"
+    buildResult:
+      variable: "COMPILER_HAS_DEPRECATED_ATTR"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/xiao.guo/xiao/build/CMakeFiles/CMakeScratch/TryCompile-a3uyza'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b55ff.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        适用于 .NET Framework MSBuild 版本 17.7.2+d6990bcfa
+        生成启动时间为 2024/3/23 11:29:42。
+        
+        节点 1 上的项目“E:\\xiao.guo\\xiao\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a3uyza\\cmTC_b55ff.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_b55ff.dir\\Debug\\”。
+          正在创建目录“E:\\xiao.guo\\xiao\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a3uyza\\Debug\\”。
+          正在创建目录“cmTC_b55ff.dir\\Debug\\cmTC_b55ff.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_b55ff.dir\\Debug\\cmTC_b55ff.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+          正在对“cmTC_b55ff.dir\\Debug\\cmTC_b55ff.tlog\\unsuccessfulbuild”执行 Touch 任务。
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D COMPILER_HAS_DEPRECATED_ATTR /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_b55ff.dir\\Debug\\\\" /Fd"cmTC_b55ff.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\xiao.guo\\xiao\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a3uyza\\src.cxx"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.37.32822 版
+          src.cxx
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D COMPILER_HAS_DEPRECATED_ATTR /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_b55ff.dir\\Debug\\\\" /Fd"cmTC_b55ff.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\xiao.guo\\xiao\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a3uyza\\src.cxx"
+        E:\\xiao.guo\\xiao\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a3uyza\\src.cxx(1,16): error C2065: “__deprecated__”: 未声明的标识符 [E:\\xiao.guo\\xiao\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a3uyza\\cmTC_b55ff.vcxproj]
+        E:\\xiao.guo\\xiao\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a3uyza\\src.cxx(1,31): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int [E:\\xiao.guo\\xiao\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a3uyza\\cmTC_b55ff.vcxproj]
+        E:\\xiao.guo\\xiao\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a3uyza\\src.cxx(1,33): error C2062: 意外的类型“int” [E:\\xiao.guo\\xiao\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a3uyza\\cmTC_b55ff.vcxproj]
+        E:\\xiao.guo\\xiao\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a3uyza\\src.cxx(1,48): error C2143: 语法错误: 缺少“;”(在“{”的前面) [E:\\xiao.guo\\xiao\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a3uyza\\cmTC_b55ff.vcxproj]
+        E:\\xiao.guo\\xiao\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a3uyza\\src.cxx(1,48): error C2447: “{”: 缺少函数标题(是否是老式的形式表?) [E:\\xiao.guo\\xiao\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a3uyza\\cmTC_b55ff.vcxproj]
+        E:\\xiao.guo\\xiao\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a3uyza\\src.cxx(2,25): error C3861: “somefunc”: 找不到标识符 [E:\\xiao.guo\\xiao\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a3uyza\\cmTC_b55ff.vcxproj]
+        已完成生成项目“E:\\xiao.guo\\xiao\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a3uyza\\cmTC_b55ff.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “E:\\xiao.guo\\xiao\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a3uyza\\cmTC_b55ff.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          E:\\xiao.guo\\xiao\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a3uyza\\src.cxx(1,16): error C2065: “__deprecated__”: 未声明的标识符 [E:\\xiao.guo\\xiao\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a3uyza\\cmTC_b55ff.vcxproj]
+          E:\\xiao.guo\\xiao\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a3uyza\\src.cxx(1,31): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int [E:\\xiao.guo\\xiao\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a3uyza\\cmTC_b55ff.vcxproj]
+          E:\\xiao.guo\\xiao\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a3uyza\\src.cxx(1,33): error C2062: 意外的类型“int” [E:\\xiao.guo\\xiao\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a3uyza\\cmTC_b55ff.vcxproj]
+          E:\\xiao.guo\\xiao\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a3uyza\\src.cxx(1,48): error C2143: 语法错误: 缺少“;”(在“{”的前面) [E:\\xiao.guo\\xiao\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a3uyza\\cmTC_b55ff.vcxproj]
+          E:\\xiao.guo\\xiao\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a3uyza\\src.cxx(1,48): error C2447: “{”: 缺少函数标题(是否是老式的形式表?) [E:\\xiao.guo\\xiao\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a3uyza\\cmTC_b55ff.vcxproj]
+          E:\\xiao.guo\\xiao\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a3uyza\\src.cxx(2,25): error C3861: “somefunc”: 找不到标识符 [E:\\xiao.guo\\xiao\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a3uyza\\cmTC_b55ff.vcxproj]
+        
+            0 个警告
+            6 个错误
+        
+        已用时间 00:00:00.42
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckSourceCompiles.cmake:77 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/GenerateExportHeader.cmake:206 (check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/GenerateExportHeader.cmake:269 (_check_cxx_compiler_attribute)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/GenerateExportHeader.cmake:420 (_test_compiler_has_deprecated)"
+      - "CMakeLists.txt:66 (generate_export_header)"
+    checks:
+      - "Performing Test COMPILER_HAS_DEPRECATED"
+    directories:
+      source: "E:/xiao.guo/xiao/build/CMakeFiles/CMakeScratch/TryCompile-w0yelu"
+      binary: "E:/xiao.guo/xiao/build/CMakeFiles/CMakeScratch/TryCompile-w0yelu"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/xiao.guo/xiao/cmake_modules/"
+    buildResult:
+      variable: "COMPILER_HAS_DEPRECATED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/xiao.guo/xiao/build/CMakeFiles/CMakeScratch/TryCompile-w0yelu'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f859b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        适用于 .NET Framework MSBuild 版本 17.7.2+d6990bcfa
+        生成启动时间为 2024/3/23 11:29:43。
+        
+        节点 1 上的项目“E:\\xiao.guo\\xiao\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w0yelu\\cmTC_f859b.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_f859b.dir\\Debug\\”。
+          正在创建目录“E:\\xiao.guo\\xiao\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w0yelu\\Debug\\”。
+          正在创建目录“cmTC_f859b.dir\\Debug\\cmTC_f859b.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_f859b.dir\\Debug\\cmTC_f859b.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+          正在对“cmTC_f859b.dir\\Debug\\cmTC_f859b.tlog\\unsuccessfulbuild”执行 Touch 任务。
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D COMPILER_HAS_DEPRECATED /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f859b.dir\\Debug\\\\" /Fd"cmTC_f859b.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\xiao.guo\\xiao\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w0yelu\\src.cxx"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.37.32822 版
+          src.cxx
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D COMPILER_HAS_DEPRECATED /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f859b.dir\\Debug\\\\" /Fd"cmTC_f859b.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\xiao.guo\\xiao\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w0yelu\\src.cxx"
+        E:\\xiao.guo\\xiao\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w0yelu\\src.cxx(2,25): warning C4996: 'somefunc': 被声明为已否决 [E:\\xiao.guo\\xiao\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w0yelu\\cmTC_f859b.vcxproj]
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\xiao.guo\\xiao\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w0yelu\\Debug\\cmTC_f859b.exe" /INCREMENTAL /ILK:"cmTC_f859b.dir\\Debug\\cmTC_f859b.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/xiao.guo/xiao/build/CMakeFiles/CMakeScratch/TryCompile-w0yelu/Debug/cmTC_f859b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/xiao.guo/xiao/build/CMakeFiles/CMakeScratch/TryCompile-w0yelu/Debug/cmTC_f859b.lib" /MACHINE:X64  /machine:x64 cmTC_f859b.dir\\Debug\\src.obj
+          cmTC_f859b.vcxproj -> E:\\xiao.guo\\xiao\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w0yelu\\Debug\\cmTC_f859b.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_f859b.dir\\Debug\\cmTC_f859b.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_f859b.dir\\Debug\\cmTC_f859b.tlog\\cmTC_f859b.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“E:\\xiao.guo\\xiao\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w0yelu\\cmTC_f859b.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+        
+        “E:\\xiao.guo\\xiao\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w0yelu\\cmTC_f859b.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          E:\\xiao.guo\\xiao\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w0yelu\\src.cxx(2,25): warning C4996: 'somefunc': 被声明为已否决 [E:\\xiao.guo\\xiao\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w0yelu\\cmTC_f859b.vcxproj]
+        
+            1 个警告
+            0 个错误
+        
+        已用时间 00:00:00.78
+        
+      exitCode: 0
+...
