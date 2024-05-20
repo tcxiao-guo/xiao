@@ -12,6 +12,7 @@
 #pragma once
 
 #include <xiao/utils/NonCopyable.h>
+#include <xiao/utils/Date.h>
 #include <xiao/exports.h>
 #include <xiao/utils/LogStream.h>
 #include <functional>
@@ -21,6 +22,8 @@ namespace spdlog
 {
     class logger;
 }
+
+#define XIAO_IF_(cond) for (int _r = 0; _r == 0 && (cond); _r = 1)
 
 namespace xiao
 {
@@ -307,6 +310,7 @@ namespace xiao
 
         friend class RawLogger;
         LogStream logStream_;
+        Date date_{Date::now()};
         LogLevel level_;
         int index_{-1};
     };
@@ -328,4 +332,13 @@ namespace xiao
         LogStream logStream_;
         int index_{-1};
     };
+
+#ifdef NDEBUG
+#define LOG_TRACE                                                    \
+    XIAO_IF(0)                                                       \
+    xiao::Logger(__FILE__, __LINE__, xiao::Logger::xTrace, __func__) \
+        .stream()
+
+#else
+#endif
 }

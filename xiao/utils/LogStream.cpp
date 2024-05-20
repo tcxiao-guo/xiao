@@ -63,6 +63,7 @@ namespace xiao
             return p - buf;
         }
 
+        // 显示实例化
         template class FixedBuffer<kSmallBuffer>;
         template class FixedBuffer<kLargeBuffer>;
     }
